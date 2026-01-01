@@ -1,0 +1,18 @@
+
+* { box-sizing: border-box; }
+body { font-family: "Noto Sans TC", "PingFang TC", system-ui, -apple-system, sans-serif; margin: 0; color: #1f2937; background: #f9fafb; }
+header { background: #111827; color: #f9fafb; padding: 1.5rem 1rem; }
+header nav a { color: #93c5fd; text-decoration: none; }
+main { max-width: 960px; margin: 0 auto; padding: 1.5rem 1rem 3rem; }
+footer { background: #111827; color: #9ca3af; padding: 1rem; text-align: center; }
+table { width: 100%; border-collapse: collapse; margin-top: 1rem; background: white; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+th, td { padding: 0.75rem; border-bottom: 1px solid #e5e7eb; text-align: left; }
+thead { background: #f3f4f6; }
+tbody tr:nth-child(even) { background: #f9fafb; }
+tbody tr:hover { background: #eef2ff; }
+a { color: #2563eb; }
+.detail dl { display: grid; grid-template-columns: 120px 1fr; gap: 0.5rem 1rem; background: white; padding: 1rem; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.detail dt { font-weight: 700; }
+.note { margin-top: 1rem; color: #6b7280; }
+.intro { background: #e0f2fe; padding: 1rem; border: 1px solid #bfdbfe; border-radius: 8px; }
+.breadcrumb { margin: 0 0 1rem; }
