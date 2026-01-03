@@ -1,0 +1,506 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>新市區防空避難設施｜GitHub Pages 網站</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="container">
+      <p class="eyebrow">GitHub Pages</p>
+      <h1>新市區防空避難設施</h1>
+      <p class="lead">直接從倉庫生成的靜態網站，為每一個避難設施提供獨立頁面。</p>
+      <div class="controls">
+        <label class="control">
+          <span>搜尋名稱或地址</span>
+          <input id="search" type="search" placeholder="輸入關鍵字" />
+        </label>
+        <label class="control">
+          <span>轄管分局</span>
+          <select id="precinct-filter">
+            <option value="">全部</option>
+            <option value="善化分局">善化分局</option>
+          </select>
+        </label>
+        <label class="control">
+          <span>排序</span>
+          <select id="sort">
+            <option value="default">原始順序</option>
+            <option value="capacity-desc">容量（大 → 小）</option>
+            <option value="capacity-asc">容量（小 → 大）</option>
+          </select>
+        </label>
+      </div>
+      <p id="result-count" class="muted"></p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="card-grid" class="grid">
+      
+        <article class="card" data-card data-index="0" data-name="新市區三舍里東弘金屬公司" data-address="臺南市新市區三舍里5鄰三舍153號" data-precinct="善化分局" data-capacity="337">
+          <p class="eyebrow">防空避難設施</p>
+          <h2>新市區三舍里東弘金屬公司</h2>
+          <p class="muted">臺南市新市區三舍里5鄰三舍153號</p>
+          <div class="meta">
+            <span>容量：337</span>
+            <span>分局：善化分局</span>
+          </div>
+          <a class="button ghost" href="facilities/shelter-01.html">查看獨立頁面</a>
+        </article>
+        
+        <article class="card" data-card data-index="1" data-name="新市區三舍里佳和紡織公司" data-address="臺南市新市區三舍里5鄰三舍207號" data-precinct="善化分局" data-capacity="2586">
+          <p class="eyebrow">防空避難設施</p>
+          <h2>新市區三舍里佳和紡織公司</h2>
+          <p class="muted">臺南市新市區三舍里5鄰三舍207號</p>
+          <div class="meta">
+            <span>容量：2,586</span>
+            <span>分局：善化分局</span>
+          </div>
+          <a class="button ghost" href="facilities/shelter-02.html">查看獨立頁面</a>
+        </article>
+        
+        <article class="card" data-card data-index="2" data-name="新市區三舍里得力紡織公司" data-address="臺南市新市區三舍里5鄰三舍240號" data-precinct="善化分局" data-capacity="302">
+          <p class="eyebrow">防空避難設施</p>
+          <h2>新市區三舍里得力紡織公司</h2>
+          <p class="muted">臺南市新市區三舍里5鄰三舍240號</p>
+          <div class="meta">
+            <span>容量：302</span>
+            <span>分局：善化分局</span>
+          </div>
+          <a class="button ghost" href="facilities/shelter-03.html">查看獨立頁面</a>
+        </article>
+        
+        <article class="card" data-card data-index="3" data-name="新市區三舍里茂迪股份有限公司" data-address="臺南市新市區三舍里8鄰大順九路3號" data-precinct="善化分局" data-capacity="1208">
+          <p class="eyebrow">防空避難設施</p>
+          <h2>新市區三舍里茂迪股份有限公司</h2>
+          <p class="muted">臺南市新市區三舍里8鄰大順九路3號</p>
+          <div class="meta">
+            <span>容量：1,208</span>
+            <span>分局：善化分局</span>
+          </div>
+          <a class="button ghost" href="facilities/shelter-04.html">查看獨立頁面</a>
+        </article>
+        
+        <article class="card" data-card data-index="4" data-name="新市區大社里百輝企業公司" data-address="臺南市新市區大社里13鄰大社879號" data-precinct="善化分局" data-capacity="116">
+          <p class="eyebrow">防空避難設施</p>
+          <h2>新市區大社里百輝企業公司</h2>
+          <p class="muted">臺南市新市區大社里13鄰大社879號</p>
+          <div class="meta">
+            <span>容量：116</span>
+            <span>分局：善化分局</span>
+          </div>
+          <a class="button ghost" href="facilities/shelter-05.html">查看獨立頁面</a>
+        </article>
+        
+        <article class="card" data-card data-index="5" data-name="新市區大營里冠華染織公司" data-address="臺南市新市區大營里13鄰大營128號" data-precinct="善化分局" data-capacity="253">
+          <p class="eyebrow">防空避難設施</p>
+          <h2>新市區大營里冠華染織公司</h2>
+          <p class="muted">臺南市新市區大營里13鄰大營128號</p>
+          <div class="meta">
+            <span>容量：253</span>
+            <span>分局：善化分局</span>
+          </div>
+          <a class="button ghost" href="facilities/shelter-06.html">查看獨立頁面</a>
+        </article>
+        
+        <article class="card" data-card data-index="6" data-name="新市區大營里東成地毯股份公司" data-address="臺南市新市區大營里1鄰大營1號" data-precinct="善化分局" data-capacity="42">
+          <p class="eyebrow">防空避難設施</p>
+          <h2>新市區大營里東成地毯股份公司</h2>
+          <p class="muted">臺南市新市區大營里1鄰大營1號</p>
+          <div class="meta">
+            <span>容量：42</span>
+            <span>分局：善化分局</span>
+          </div>
+          <a class="button ghost" href="facilities/shelter-07.html">查看獨立頁面</a>
+        </article>
+        
+        <article class="card" data-card data-index="7" data-name="新市區大營里統一企業公司" data-address="臺南市新市區大營里1鄰大營7號" data-precinct="善化分局" data-capacity="1950">
+          <p class="eyebrow">防空避難設施</p>
+          <h2>新市區大營里統一企業公司</h2>
+          <p class="muted">臺南市新市區大營里1鄰大營7號</p>
+          <div class="meta">
+            <span>容量：1,950</span>
+            <span>分局：善化分局</span>
+          </div>
+          <a class="button ghost" href="facilities/shelter-08.html">查看獨立頁面</a>
+        </article>
+        
+        <article class="card" data-card data-index="8" data-name="新市區大營里好帝一食品公司" data-address="臺南市新市區大營里3鄰豐榮160號" data-precinct="善化分局" data-capacity="630">
+          <p class="eyebrow">防空避難設施</p>
+          <h2>新市區大營里好帝一食品公司</h2>
+          <p class="muted">臺南市新市區大營里3鄰豐榮160號</p>
+          <div class="meta">
+            <span>容量：630</span>
+            <span>分局：善化分局</span>
+          </div>
+          <a class="button ghost" href="facilities/shelter-09.html">查看獨立頁面</a>
+        </article>
+        
+        <article class="card" data-card data-index="9" data-name="新市區永就里臺南紡織公司" data-address="臺南市新市區永就里3鄰中華路111號" data-precinct="善化分局" data-capacity="275">
+          <p class="eyebrow">防空避難設施</p>
+          <h2>新市區永就里臺南紡織公司</h2>
+          <p class="muted">臺南市新市區永就里3鄰中華路111號</p>
+          <div class="meta">
+            <span>容量：275</span>
+            <span>分局：善化分局</span>
+          </div>
+          <a class="button ghost" href="facilities/shelter-10.html">查看獨立頁面</a>
+        </article>
+        
+        <article class="card" data-card data-index="10" data-name="新市區永就里遠東科技大學" data-address="臺南市新市區永就里4鄰中華路49號" data-precinct="善化分局" data-capacity="4000">
+          <p class="eyebrow">防空避難設施</p>
+          <h2>新市區永就里遠東科技大學</h2>
+          <p class="muted">臺南市新市區永就里4鄰中華路49號</p>
+          <div class="meta">
+            <span>容量：4,000</span>
+            <span>分局：善化分局</span>
+          </div>
+          <a class="button ghost" href="facilities/shelter-11.html">查看獨立頁面</a>
+        </article>
+        
+        <article class="card" data-card data-index="11" data-name="新市區永就里遠東科技大學" data-address="臺南市新市區永就里4鄰中華路49號" data-precinct="善化分局" data-capacity="908">
+          <p class="eyebrow">防空避難設施</p>
+          <h2>新市區永就里遠東科技大學</h2>
+          <p class="muted">臺南市新市區永就里4鄰中華路49號</p>
+          <div class="meta">
+            <span>容量：908</span>
+            <span>分局：善化分局</span>
+          </div>
+          <a class="button ghost" href="facilities/shelter-12.html">查看獨立頁面</a>
+        </article>
+        
+        <article class="card" data-card data-index="12" data-name="新市區永就里遠東科技大學" data-address="臺南市新市區永就里4鄰中華路49號" data-precinct="善化分局" data-capacity="2387">
+          <p class="eyebrow">防空避難設施</p>
+          <h2>新市區永就里遠東科技大學</h2>
+          <p class="muted">臺南市新市區永就里4鄰中華路49號</p>
+          <div class="meta">
+            <span>容量：2,387</span>
+            <span>分局：善化分局</span>
+          </div>
+          <a class="button ghost" href="facilities/shelter-13.html">查看獨立頁面</a>
+        </article>
+        
+        <article class="card" data-card data-index="13" data-name="新市區永就里台灣百事公司" data-address="臺南市新市區永就里6鄰中山路181號" data-precinct="善化分局" data-capacity="857">
+          <p class="eyebrow">防空避難設施</p>
+          <h2>新市區永就里台灣百事公司</h2>
+          <p class="muted">臺南市新市區永就里6鄰中山路181號</p>
+          <div class="meta">
+            <span>容量：857</span>
+            <span>分局：善化分局</span>
+          </div>
+          <a class="button ghost" href="facilities/shelter-14.html">查看獨立頁面</a>
+        </article>
+        
+        <article class="card" data-card data-index="14" data-name="新市區永就里瑞士藥廠公司" data-address="臺南市新市區永就里6鄰中山路182號" data-precinct="善化分局" data-capacity="151">
+          <p class="eyebrow">防空避難設施</p>
+          <h2>新市區永就里瑞士藥廠公司</h2>
+          <p class="muted">臺南市新市區永就里6鄰中山路182號</p>
+          <div class="meta">
+            <span>容量：151</span>
+            <span>分局：善化分局</span>
+          </div>
+          <a class="button ghost" href="facilities/shelter-15.html">查看獨立頁面</a>
+        </article>
+        
+        <article class="card" data-card data-index="15" data-name="新市區永就里銘彰重機公司" data-address="臺南市新市區永就里6鄰中山路187號" data-precinct="善化分局" data-capacity="351">
+          <p class="eyebrow">防空避難設施</p>
+          <h2>新市區永就里銘彰重機公司</h2>
+          <p class="muted">臺南市新市區永就里6鄰中山路187號</p>
+          <div class="meta">
+            <span>容量：351</span>
+            <span>分局：善化分局</span>
+          </div>
+          <a class="button ghost" href="facilities/shelter-16.html">查看獨立頁面</a>
+        </article>
+        
+        <article class="card" data-card data-index="16" data-name="新市區永就里緯和公司" data-address="臺南市新市區永就里6鄰中山路206號" data-precinct="善化分局" data-capacity="453">
+          <p class="eyebrow">防空避難設施</p>
+          <h2>新市區永就里緯和公司</h2>
+          <p class="muted">臺南市新市區永就里6鄰中山路206號</p>
+          <div class="meta">
+            <span>容量：453</span>
+            <span>分局：善化分局</span>
+          </div>
+          <a class="button ghost" href="facilities/shelter-17.html">查看獨立頁面</a>
+        </article>
+        
+        <article class="card" data-card data-index="17" data-name="新市區永就里元益汽車公司" data-address="臺南市新市區永就里6鄰中山路209號" data-precinct="善化分局" data-capacity="111">
+          <p class="eyebrow">防空避難設施</p>
+          <h2>新市區永就里元益汽車公司</h2>
+          <p class="muted">臺南市新市區永就里6鄰中山路209號</p>
+          <div class="meta">
+            <span>容量：111</span>
+            <span>分局：善化分局</span>
+          </div>
+          <a class="button ghost" href="facilities/shelter-18.html">查看獨立頁面</a>
+        </article>
+        
+        <article class="card" data-card data-index="18" data-name="新市區永就里康家木業公司" data-address="臺南市新市區永就里7鄰中山路271巷16號" data-precinct="善化分局" data-capacity="1144">
+          <p class="eyebrow">防空避難設施</p>
+          <h2>新市區永就里康家木業公司</h2>
+          <p class="muted">臺南市新市區永就里7鄰中山路271巷16號</p>
+          <div class="meta">
+            <span>容量：1,144</span>
+            <span>分局：善化分局</span>
+          </div>
+          <a class="button ghost" href="facilities/shelter-19.html">查看獨立頁面</a>
+        </article>
+        
+        <article class="card" data-card data-index="19" data-name="新市區社內里聯華電子股份公司" data-address="臺南市新市區社內里8鄰社內76之11號" data-precinct="善化分局" data-capacity="1126">
+          <p class="eyebrow">防空避難設施</p>
+          <h2>新市區社內里聯華電子股份公司</h2>
+          <p class="muted">臺南市新市區社內里8鄰社內76之11號</p>
+          <div class="meta">
+            <span>容量：1,126</span>
+            <span>分局：善化分局</span>
+          </div>
+          <a class="button ghost" href="facilities/shelter-20.html">查看獨立頁面</a>
+        </article>
+        
+        <article class="card" data-card data-index="20" data-name="新市區港墘里迦拿企業公司一廠" data-address="臺南市新市區港墘里12鄰光華街37號" data-precinct="善化分局" data-capacity="328">
+          <p class="eyebrow">防空避難設施</p>
+          <h2>新市區港墘里迦拿企業公司一廠</h2>
+          <p class="muted">臺南市新市區港墘里12鄰光華街37號</p>
+          <div class="meta">
+            <span>容量：328</span>
+            <span>分局：善化分局</span>
+          </div>
+          <a class="button ghost" href="facilities/shelter-21.html">查看獨立頁面</a>
+        </article>
+        
+        <article class="card" data-card data-index="21" data-name="新市區港墘里麗晶建設" data-address="臺南市新市區港墘里15鄰南港街89號" data-precinct="善化分局" data-capacity="208">
+          <p class="eyebrow">防空避難設施</p>
+          <h2>新市區港墘里麗晶建設</h2>
+          <p class="muted">臺南市新市區港墘里15鄰南港街89號</p>
+          <div class="meta">
+            <span>容量：208</span>
+            <span>分局：善化分局</span>
+          </div>
+          <a class="button ghost" href="facilities/shelter-22.html">查看獨立頁面</a>
+        </article>
+        
+        <article class="card" data-card data-index="22" data-name="新市區港墘里順大電機公司" data-address="臺南市新市區港墘里1鄰中山路2之1號" data-precinct="善化分局" data-capacity="1026">
+          <p class="eyebrow">防空避難設施</p>
+          <h2>新市區港墘里順大電機公司</h2>
+          <p class="muted">臺南市新市區港墘里1鄰中山路2之1號</p>
+          <div class="meta">
+            <span>容量：1,026</span>
+            <span>分局：善化分局</span>
+          </div>
+          <a class="button ghost" href="facilities/shelter-23.html">查看獨立頁面</a>
+        </article>
+        
+        <article class="card" data-card data-index="23" data-name="新市區港墘里開南金屬工業" data-address="臺南市新市區港墘里1鄰民族路43號" data-precinct="善化分局" data-capacity="533">
+          <p class="eyebrow">防空避難設施</p>
+          <h2>新市區港墘里開南金屬工業</h2>
+          <p class="muted">臺南市新市區港墘里1鄰民族路43號</p>
+          <div class="meta">
+            <span>容量：533</span>
+            <span>分局：善化分局</span>
+          </div>
+          <a class="button ghost" href="facilities/shelter-24.html">查看獨立頁面</a>
+        </article>
+        
+        <article class="card" data-card data-index="24" data-name="新市區港墘里三炎實業公司" data-address="臺南市新市區港墘里5鄰永漢路1號" data-precinct="善化分局" data-capacity="591">
+          <p class="eyebrow">防空避難設施</p>
+          <h2>新市區港墘里三炎實業公司</h2>
+          <p class="muted">臺南市新市區港墘里5鄰永漢路1號</p>
+          <div class="meta">
+            <span>容量：591</span>
+            <span>分局：善化分局</span>
+          </div>
+          <a class="button ghost" href="facilities/shelter-25.html">查看獨立頁面</a>
+        </article>
+        
+        <article class="card" data-card data-index="25" data-name="新市區港墘里正規電纜" data-address="臺南市新市區港墘里5鄰國際路16號" data-precinct="善化分局" data-capacity="1031">
+          <p class="eyebrow">防空避難設施</p>
+          <h2>新市區港墘里正規電纜</h2>
+          <p class="muted">臺南市新市區港墘里5鄰國際路16號</p>
+          <div class="meta">
+            <span>容量：1,031</span>
+            <span>分局：善化分局</span>
+          </div>
+          <a class="button ghost" href="facilities/shelter-26.html">查看獨立頁面</a>
+        </article>
+        
+        <article class="card" data-card data-index="26" data-name="新市區港墘里嘉升實業" data-address="臺南市新市區港墘里5鄰國際路4號" data-precinct="善化分局" data-capacity="297">
+          <p class="eyebrow">防空避難設施</p>
+          <h2>新市區港墘里嘉升實業</h2>
+          <p class="muted">臺南市新市區港墘里5鄰國際路4號</p>
+          <div class="meta">
+            <span>容量：297</span>
+            <span>分局：善化分局</span>
+          </div>
+          <a class="button ghost" href="facilities/shelter-27.html">查看獨立頁面</a>
+        </article>
+        
+        <article class="card" data-card data-index="27" data-name="新市區港墘里嘉升實業" data-address="臺南市新市區港墘里5鄰國際路6號" data-precinct="善化分局" data-capacity="617">
+          <p class="eyebrow">防空避難設施</p>
+          <h2>新市區港墘里嘉升實業</h2>
+          <p class="muted">臺南市新市區港墘里5鄰國際路6號</p>
+          <div class="meta">
+            <span>容量：617</span>
+            <span>分局：善化分局</span>
+          </div>
+          <a class="button ghost" href="facilities/shelter-28.html">查看獨立頁面</a>
+        </article>
+        
+        <article class="card" data-card data-index="28" data-name="新市區港墘里嘉方實業" data-address="臺南市新市區港墘里5鄰國際路8號" data-precinct="善化分局" data-capacity="884">
+          <p class="eyebrow">防空避難設施</p>
+          <h2>新市區港墘里嘉方實業</h2>
+          <p class="muted">臺南市新市區港墘里5鄰國際路8號</p>
+          <div class="meta">
+            <span>容量：884</span>
+            <span>分局：善化分局</span>
+          </div>
+          <a class="button ghost" href="facilities/shelter-29.html">查看獨立頁面</a>
+        </article>
+        
+        <article class="card" data-card data-index="29" data-name="新市區港墘里安培企業公司" data-address="臺南市新市區港墘里5鄰興業路11號" data-precinct="善化分局" data-capacity="453">
+          <p class="eyebrow">防空避難設施</p>
+          <h2>新市區港墘里安培企業公司</h2>
+          <p class="muted">臺南市新市區港墘里5鄰興業路11號</p>
+          <div class="meta">
+            <span>容量：453</span>
+            <span>分局：善化分局</span>
+          </div>
+          <a class="button ghost" href="facilities/shelter-30.html">查看獨立頁面</a>
+        </article>
+        
+        <article class="card" data-card data-index="30" data-name="新市區港墘里南元紡織公司" data-address="臺南市新市區港墘里5鄰興業路2號" data-precinct="善化分局" data-capacity="3502">
+          <p class="eyebrow">防空避難設施</p>
+          <h2>新市區港墘里南元紡織公司</h2>
+          <p class="muted">臺南市新市區港墘里5鄰興業路2號</p>
+          <div class="meta">
+            <span>容量：3,502</span>
+            <span>分局：善化分局</span>
+          </div>
+          <a class="button ghost" href="facilities/shelter-31.html">查看獨立頁面</a>
+        </article>
+        
+        <article class="card" data-card data-index="31" data-name="新市區新市里摩登都會大樓" data-address="臺南市新市區新市里18鄰復興路62巷9號" data-precinct="善化分局" data-capacity="2037">
+          <p class="eyebrow">防空避難設施</p>
+          <h2>新市區新市里摩登都會大樓</h2>
+          <p class="muted">臺南市新市區新市里18鄰復興路62巷9號</p>
+          <div class="meta">
+            <span>容量：2,037</span>
+            <span>分局：善化分局</span>
+          </div>
+          <a class="button ghost" href="facilities/shelter-32.html">查看獨立頁面</a>
+        </article>
+        
+        <article class="card" data-card data-index="32" data-name="新市區新市里新市區零售市場" data-address="臺南市新市區新市里8鄰中正路358號" data-precinct="善化分局" data-capacity="4466">
+          <p class="eyebrow">防空避難設施</p>
+          <h2>新市區新市里新市區零售市場</h2>
+          <p class="muted">臺南市新市區新市里8鄰中正路358號</p>
+          <div class="meta">
+            <span>容量：4,466</span>
+            <span>分局：善化分局</span>
+          </div>
+          <a class="button ghost" href="facilities/shelter-33.html">查看獨立頁面</a>
+        </article>
+        
+        <article class="card" data-card data-index="33" data-name="新市區新和里將延建設" data-address="臺南市新市區新和里13鄰中正路116巷2弄2號" data-precinct="善化分局" data-capacity="7536">
+          <p class="eyebrow">防空避難設施</p>
+          <h2>新市區新和里將延建設</h2>
+          <p class="muted">臺南市新市區新和里13鄰中正路116巷2弄2號</p>
+          <div class="meta">
+            <span>容量：7,536</span>
+            <span>分局：善化分局</span>
+          </div>
+          <a class="button ghost" href="facilities/shelter-34.html">查看獨立頁面</a>
+        </article>
+        
+        <article class="card" data-card data-index="34" data-name="新市區新和里新市名人花園大廈" data-address="臺南市新市區新和里31鄰民生路45號" data-precinct="善化分局" data-capacity="3113">
+          <p class="eyebrow">防空避難設施</p>
+          <h2>新市區新和里新市名人花園大廈</h2>
+          <p class="muted">臺南市新市區新和里31鄰民生路45號</p>
+          <div class="meta">
+            <span>容量：3,113</span>
+            <span>分局：善化分局</span>
+          </div>
+          <a class="button ghost" href="facilities/shelter-35.html">查看獨立頁面</a>
+        </article>
+        
+        <article class="card" data-card data-index="35" data-name="新市區新和里順越工業公司" data-address="臺南市新市區新和里3鄰中正路23巷6號" data-precinct="善化分局" data-capacity="404">
+          <p class="eyebrow">防空避難設施</p>
+          <h2>新市區新和里順越工業公司</h2>
+          <p class="muted">臺南市新市區新和里3鄰中正路23巷6號</p>
+          <div class="meta">
+            <span>容量：404</span>
+            <span>分局：善化分局</span>
+          </div>
+          <a class="button ghost" href="facilities/shelter-36.html">查看獨立頁面</a>
+        </article>
+        
+        <article class="card" data-card data-index="36" data-name="新市區潭頂里弘勝皮革廠" data-address="臺南市新市區潭頂里1鄰潭頂11號" data-precinct="善化分局" data-capacity="120">
+          <p class="eyebrow">防空避難設施</p>
+          <h2>新市區潭頂里弘勝皮革廠</h2>
+          <p class="muted">臺南市新市區潭頂里1鄰潭頂11號</p>
+          <div class="meta">
+            <span>容量：120</span>
+            <span>分局：善化分局</span>
+          </div>
+          <a class="button ghost" href="facilities/shelter-37.html">查看獨立頁面</a>
+        </article>
+        
+        <article class="card" data-card data-index="37" data-name="新市區潭頂里木通紡織公司" data-address="臺南市新市區潭頂里1鄰潭頂12號" data-precinct="善化分局" data-capacity="225">
+          <p class="eyebrow">防空避難設施</p>
+          <h2>新市區潭頂里木通紡織公司</h2>
+          <p class="muted">臺南市新市區潭頂里1鄰潭頂12號</p>
+          <div class="meta">
+            <span>容量：225</span>
+            <span>分局：善化分局</span>
+          </div>
+          <a class="button ghost" href="facilities/shelter-38.html">查看獨立頁面</a>
+        </article>
+        
+        <article class="card" data-card data-index="38" data-name="新市區豐華里大億科技股份公司" data-address="臺南市新市區豐華里5鄰南科一路3號" data-precinct="善化分局" data-capacity="5196">
+          <p class="eyebrow">防空避難設施</p>
+          <h2>新市區豐華里大億科技股份公司</h2>
+          <p class="muted">臺南市新市區豐華里5鄰南科一路3號</p>
+          <div class="meta">
+            <span>容量：5,196</span>
+            <span>分局：善化分局</span>
+          </div>
+          <a class="button ghost" href="facilities/shelter-39.html">查看獨立頁面</a>
+        </article>
+        
+        <article class="card" data-card data-index="39" data-name="新市區豐華里英屬開曼群島商亞德克公司" data-address="臺南市新市區豐華里5鄰看西路28號" data-precinct="善化分局" data-capacity="21198">
+          <p class="eyebrow">防空避難設施</p>
+          <h2>新市區豐華里英屬開曼群島商亞德克公司</h2>
+          <p class="muted">臺南市新市區豐華里5鄰看西路28號</p>
+          <div class="meta">
+            <span>容量：21,198</span>
+            <span>分局：善化分局</span>
+          </div>
+          <a class="button ghost" href="facilities/shelter-40.html">查看獨立頁面</a>
+        </article>
+        
+        <article class="card" data-card data-index="40" data-name="新市區豐華里光鋐科技股份有限公司" data-address="臺南市新市區豐華里5鄰看西路7號" data-precinct="善化分局" data-capacity="6079">
+          <p class="eyebrow">防空避難設施</p>
+          <h2>新市區豐華里光鋐科技股份有限公司</h2>
+          <p class="muted">臺南市新市區豐華里5鄰看西路7號</p>
+          <div class="meta">
+            <span>容量：6,079</span>
+            <span>分局：善化分局</span>
+          </div>
+          <a class="button ghost" href="facilities/shelter-41.html">查看獨立頁面</a>
+        </article>
+        
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>資料來源：<a href="新市區-1130702.pdf" target="_blank" rel="noreferrer">臺南市新市區防空疏散避難設施一覽表</a>（113/07/02 更新）。</p>
+      <p>此站點可直接部署於 GitHub Pages。</p>
+    </div>
+  </footer>
+
+  <script src="assets/main.js"></script>
+</body>
+</html>
