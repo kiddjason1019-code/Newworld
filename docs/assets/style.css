@@ -1,0 +1,161 @@
+
+:root {
+  --bg: #0f172a;
+  --card: #111827;
+  --text: #e5e7eb;
+  --muted: #94a3b8;
+  --accent: #60a5fa;
+  --border: #1f2937;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Inter", "Noto Sans TC", system-ui, -apple-system, sans-serif;
+  background: radial-gradient(circle at top left, rgba(96,165,250,0.12), rgba(96,165,250,0)),
+              radial-gradient(circle at top right, rgba(52,211,153,0.12), rgba(52,211,153,0)),
+              var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 1.25rem 2rem;
+}
+
+.site-header {
+  padding: 2rem 0 1rem;
+}
+
+.site-header h1 {
+  margin: 0;
+  font-size: 2.4rem;
+  letter-spacing: 0.02em;
+}
+
+.subtitle {
+  margin: 0.35rem 0 1.2rem;
+  color: var(--muted);
+}
+
+.search-row {
+  display: grid;
+  gap: 0.5rem;
+  margin-top: 0.75rem;
+}
+
+input[type="search"] {
+  padding: 0.85rem 1rem;
+  border-radius: 0.75rem;
+  border: 1px solid var(--border);
+  background: rgba(255,255,255,0.04);
+  color: var(--text);
+  font-size: 1rem;
+  outline: none;
+}
+
+input[type="search"]:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px rgba(96,165,250,0.25);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.facility-card, .card {
+  background: rgba(17, 24, 39, 0.8);
+  border: 1px solid var(--border);
+  border-radius: 1rem;
+  padding: 1.25rem;
+  box-shadow: 0 10px 35px rgba(0,0,0,0.3);
+  transition: transform 0.15s ease, border-color 0.15s ease;
+}
+
+.facility-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--accent);
+}
+
+.facility-card h2 {
+  margin: 0 0 0.3rem;
+  font-size: 1.3rem;
+}
+
+.facility-card a {
+  color: #bfdbfe;
+  text-decoration: none;
+}
+
+.facility-card a:hover {
+  color: #fff;
+}
+
+.facility-card .meta {
+  margin: 0 0 0.4rem;
+  color: var(--muted);
+}
+
+.facility-card p {
+  margin: 0.2rem 0;
+  line-height: 1.5;
+}
+
+.capacity {
+  color: #a5b4fc;
+  font-weight: 600;
+}
+
+.site-footer {
+  padding: 2rem 0;
+  color: var(--muted);
+  border-top: 1px solid var(--border);
+  margin-top: 2rem;
+}
+
+.breadcrumb {
+  color: #bfdbfe;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 0.8rem;
+}
+
+.breadcrumb:hover {
+  color: #fff;
+}
+
+.card h1 {
+  margin-top: 0;
+}
+
+.facility-details {
+  display: grid;
+  gap: 0.75rem;
+  margin: 0;
+}
+
+.facility-details div {
+  background: rgba(255,255,255,0.02);
+  padding: 0.75rem 1rem;
+  border-radius: 0.75rem;
+  border: 1px solid var(--border);
+}
+
+.facility-details dt {
+  font-weight: 600;
+  color: #c7d2fe;
+  margin: 0 0 0.35rem;
+}
+
+.facility-details dd {
+  margin: 0;
+  line-height: 1.5;
+}
