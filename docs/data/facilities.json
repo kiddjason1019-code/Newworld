@@ -1,0 +1,371 @@
+[
+  {
+    "name": "新市區港墘里麗晶建設",
+    "address": "南港街89號",
+    "locality": "臺南市新市區港墘里15鄰",
+    "capacity": 208,
+    "precinct": "善化分局",
+    "page": 1,
+    "slug": "facility-01"
+  },
+  {
+    "name": "新市區港墘里迦拿企業公司一廠",
+    "address": "光華街37號",
+    "locality": "臺南市新市區港墘里12鄰",
+    "capacity": 328,
+    "precinct": "善化分局",
+    "page": 1,
+    "slug": "facility-02"
+  },
+  {
+    "name": "新市區社內里聯華電子股份公司",
+    "address": "內76之11號",
+    "locality": "臺南市新市區社內里8鄰社",
+    "capacity": 1126,
+    "precinct": "善化分局",
+    "page": 1,
+    "slug": "facility-03"
+  },
+  {
+    "name": "新市區永就里康家木業公司",
+    "address": "山路271巷16號",
+    "locality": "臺南市新市區永就里7鄰中",
+    "capacity": 1144,
+    "precinct": "善化分局",
+    "page": 1,
+    "slug": "facility-04"
+  },
+  {
+    "name": "新市區永就里元益汽車公司",
+    "address": "山路209號",
+    "locality": "臺南市新市區永就里6鄰中",
+    "capacity": 111,
+    "precinct": "善化分局",
+    "page": 1,
+    "slug": "facility-05"
+  },
+  {
+    "name": "新市區永就里緯和公司",
+    "address": "山路206號",
+    "locality": "臺南市新市區永就里6鄰中",
+    "capacity": 453,
+    "precinct": "善化分局",
+    "page": 1,
+    "slug": "facility-06"
+  },
+  {
+    "name": "新市區永就里銘彰重機公司",
+    "address": "山路187號",
+    "locality": "臺南市新市區永就里6鄰中",
+    "capacity": 351,
+    "precinct": "善化分局",
+    "page": 1,
+    "slug": "facility-07"
+  },
+  {
+    "name": "新市區永就里瑞士藥廠公司",
+    "address": "山路182號",
+    "locality": "臺南市新市區永就里6鄰中",
+    "capacity": 151,
+    "precinct": "善化分局",
+    "page": 1,
+    "slug": "facility-08"
+  },
+  {
+    "name": "新市區永就里台灣百事公司",
+    "address": "山路181號",
+    "locality": "臺南市新市區永就里6鄰中",
+    "capacity": 857,
+    "precinct": "善化分局",
+    "page": 1,
+    "slug": "facility-09"
+  },
+  {
+    "name": "新市區永就里遠東科技大學",
+    "address": "華路49號",
+    "locality": "臺南市新市區永就里4鄰中",
+    "capacity": 2387,
+    "precinct": "善化分局",
+    "page": 1,
+    "slug": "facility-10"
+  },
+  {
+    "name": "新市區永就里遠東科技大學",
+    "address": "華路49號",
+    "locality": "臺南市新市區永就里4鄰中",
+    "capacity": 908,
+    "precinct": "善化分局",
+    "page": 1,
+    "slug": "facility-11"
+  },
+  {
+    "name": "新市區永就里遠東科技大學",
+    "address": "華路49號",
+    "locality": "臺南市新市區永就里4鄰中",
+    "capacity": 4000,
+    "precinct": "善化分局",
+    "page": 1,
+    "slug": "facility-12"
+  },
+  {
+    "name": "新市區永就里臺南紡織公司",
+    "address": "華路111號",
+    "locality": "臺南市新市區永就里3鄰中",
+    "capacity": 275,
+    "precinct": "善化分局",
+    "page": 1,
+    "slug": "facility-13"
+  },
+  {
+    "name": "新市區大營里好帝一食品公司",
+    "address": "榮160號",
+    "locality": "臺南市新市區大營里3鄰豐",
+    "capacity": 630,
+    "precinct": "善化分局",
+    "page": 1,
+    "slug": "facility-14"
+  },
+  {
+    "name": "新市區大營里統一企業公司",
+    "address": "營7號",
+    "locality": "臺南市新市區大營里1鄰大",
+    "capacity": 1950,
+    "precinct": "善化分局",
+    "page": 1,
+    "slug": "facility-15"
+  },
+  {
+    "name": "新市區大營里東成地毯股份公司",
+    "address": "營1號",
+    "locality": "臺南市新市區大營里1鄰大",
+    "capacity": 42,
+    "precinct": "善化分局",
+    "page": 1,
+    "slug": "facility-16"
+  },
+  {
+    "name": "新市區大營里冠華染織公司",
+    "address": "大營128號",
+    "locality": "臺南市新市區大營里13鄰",
+    "capacity": 253,
+    "precinct": "善化分局",
+    "page": 1,
+    "slug": "facility-17"
+  },
+  {
+    "name": "新市區大社里百輝企業公司",
+    "address": "大社879號",
+    "locality": "臺南市新市區大社里13鄰",
+    "capacity": 116,
+    "precinct": "善化分局",
+    "page": 1,
+    "slug": "facility-18"
+  },
+  {
+    "name": "新市區三舍里茂迪股份有限公司",
+    "address": "順九路3號",
+    "locality": "臺南市新市區三舍里8鄰大",
+    "capacity": 1208,
+    "precinct": "善化分局",
+    "page": 1,
+    "slug": "facility-19"
+  },
+  {
+    "name": "新市區三舍里得力紡織公司",
+    "address": "舍240號",
+    "locality": "臺南市新市區三舍里5鄰三",
+    "capacity": 302,
+    "precinct": "善化分局",
+    "page": 1,
+    "slug": "facility-20"
+  },
+  {
+    "name": "新市區三舍里佳和紡織公司",
+    "address": "舍207號",
+    "locality": "臺南市新市區三舍里5鄰三",
+    "capacity": 2586,
+    "precinct": "善化分局",
+    "page": 1,
+    "slug": "facility-21"
+  },
+  {
+    "name": "新市區三舍里東弘金屬公司",
+    "address": "舍153號",
+    "locality": "臺南市新市區三舍里5鄰三",
+    "capacity": 337,
+    "precinct": "善化分局",
+    "page": 1,
+    "slug": "facility-22"
+  },
+  {
+    "name": "新市區豐華里光鋐科技股份有限公司",
+    "address": "西路7號",
+    "locality": "臺南市新市區豐華里5鄰看",
+    "capacity": 6079,
+    "precinct": "善化分局",
+    "page": 2,
+    "slug": "facility-23"
+  },
+  {
+    "name": "新市區豐華里",
+    "address": "西路28號",
+    "locality": "英屬開曼群島商亞德克公",
+    "capacity": 21198,
+    "precinct": "善化分局",
+    "page": 2,
+    "slug": "facility-24"
+  },
+  {
+    "name": "新市區豐華里大億科技股份公司",
+    "address": "科一路3號",
+    "locality": "臺南市新市區豐華里5鄰南",
+    "capacity": 5196,
+    "precinct": "善化分局",
+    "page": 2,
+    "slug": "facility-25"
+  },
+  {
+    "name": "新市區潭頂里木通紡織公司",
+    "address": "頂12號",
+    "locality": "臺南市新市區潭頂里1鄰潭",
+    "capacity": 225,
+    "precinct": "善化分局",
+    "page": 2,
+    "slug": "facility-26"
+  },
+  {
+    "name": "新市區潭頂里弘勝皮革廠",
+    "address": "頂11號",
+    "locality": "臺南市新市區潭頂里1鄰潭",
+    "capacity": 120,
+    "precinct": "善化分局",
+    "page": 2,
+    "slug": "facility-27"
+  },
+  {
+    "name": "新市區新和里順越工業公司",
+    "address": "正路23巷6號",
+    "locality": "臺南市新市區新和里3鄰中",
+    "capacity": 404,
+    "precinct": "善化分局",
+    "page": 2,
+    "slug": "facility-28"
+  },
+  {
+    "name": "新市區新和里新市名人花園大廈",
+    "address": "民生路45號",
+    "locality": "臺南市新市區新和里31鄰",
+    "capacity": 3113,
+    "precinct": "善化分局",
+    "page": 2,
+    "slug": "facility-29"
+  },
+  {
+    "name": "新市區新和里將延建設",
+    "address": "中正路116巷2弄2號",
+    "locality": "臺南市新市區新和里13鄰",
+    "capacity": 7536,
+    "precinct": "善化分局",
+    "page": 2,
+    "slug": "facility-30"
+  },
+  {
+    "name": "新市區新市里新市區零售市場",
+    "address": "正路358號",
+    "locality": "臺南市新市區新市里8鄰中",
+    "capacity": 4466,
+    "precinct": "善化分局",
+    "page": 2,
+    "slug": "facility-31"
+  },
+  {
+    "name": "新市區新市里摩登都會大樓",
+    "address": "復興路62巷9號",
+    "locality": "臺南市新市區新市里18鄰",
+    "capacity": 2037,
+    "precinct": "善化分局",
+    "page": 2,
+    "slug": "facility-32"
+  },
+  {
+    "name": "新市區港墘里南元紡織公司",
+    "address": "業路2號",
+    "locality": "臺南市新市區港墘里5鄰興",
+    "capacity": 3502,
+    "precinct": "善化分局",
+    "page": 2,
+    "slug": "facility-33"
+  },
+  {
+    "name": "新市區港墘里安培企業公司",
+    "address": "業路11號",
+    "locality": "臺南市新市區港墘里5鄰興",
+    "capacity": 453,
+    "precinct": "善化分局",
+    "page": 2,
+    "slug": "facility-34"
+  },
+  {
+    "name": "新市區港墘里嘉方實業",
+    "address": "際路8號",
+    "locality": "臺南市新市區港墘里5鄰國",
+    "capacity": 884,
+    "precinct": "善化分局",
+    "page": 2,
+    "slug": "facility-35"
+  },
+  {
+    "name": "新市區港墘里嘉升實業",
+    "address": "際路6號",
+    "locality": "臺南市新市區港墘里5鄰國",
+    "capacity": 617,
+    "precinct": "善化分局",
+    "page": 2,
+    "slug": "facility-36"
+  },
+  {
+    "name": "新市區港墘里嘉升實業",
+    "address": "際路4號",
+    "locality": "臺南市新市區港墘里5鄰國",
+    "capacity": 297,
+    "precinct": "善化分局",
+    "page": 2,
+    "slug": "facility-37"
+  },
+  {
+    "name": "新市區港墘里正規電纜",
+    "address": "際路16號",
+    "locality": "臺南市新市區港墘里5鄰國",
+    "capacity": 1031,
+    "precinct": "善化分局",
+    "page": 2,
+    "slug": "facility-38"
+  },
+  {
+    "name": "新市區港墘里三炎實業公司",
+    "address": "漢路1號",
+    "locality": "臺南市新市區港墘里5鄰永",
+    "capacity": 591,
+    "precinct": "善化分局",
+    "page": 2,
+    "slug": "facility-39"
+  },
+  {
+    "name": "新市區港墘里開南金屬工業",
+    "address": "族路43號",
+    "locality": "臺南市新市區港墘里1鄰民",
+    "capacity": 533,
+    "precinct": "善化分局",
+    "page": 2,
+    "slug": "facility-40"
+  },
+  {
+    "name": "新市區港墘里順大電機公司",
+    "address": "山路2之1號",
+    "locality": "臺南市新市區港墘里1鄰中",
+    "capacity": 1026,
+    "precinct": "善化分局",
+    "page": 2,
+    "slug": "facility-41"
+  }
+]
