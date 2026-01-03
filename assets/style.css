@@ -1,0 +1,256 @@
+:root {
+  --bg: #0f172a;
+  --surface: #0b1224;
+  --card: #0e182f;
+  --accent: #38bdf8;
+  --text: #e2e8f0;
+  --muted: #94a3b8;
+  --border: #1e293b;
+  --shadow: 0 20px 60px rgba(0, 0, 0, 0.35);
+  --radius: 14px;
+  --radius-sm: 10px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Noto Sans TC", "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+  background: radial-gradient(circle at 20% 20%, rgba(56, 189, 248, 0.12), transparent 25%),
+    radial-gradient(circle at 80% 10%, rgba(59, 130, 246, 0.1), transparent 25%),
+    linear-gradient(160deg, #0a0f1d, #0b1020 40%, #0a1022 60%, #0b1224 100%);
+  color: var(--text);
+  min-height: 100vh;
+}
+
+h1, h2, h3 {
+  margin: 0.2em 0;
+  line-height: 1.2;
+}
+
+p {
+  margin: 0.2em 0 0.6em;
+}
+
+.container {
+  width: min(1100px, 92vw);
+  margin: 0 auto;
+  padding: 24px 0 32px;
+}
+
+.hero {
+  padding: 26px 0 10px;
+}
+
+.hero .lead {
+  color: var(--muted);
+  margin-top: 8px;
+}
+
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 12px;
+  color: var(--accent);
+  margin-bottom: 8px;
+}
+
+.controls {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 14px;
+  margin: 18px 0 10px;
+}
+
+.control {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+input[type="search"],
+select {
+  background: var(--card);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 10px 12px;
+  font-size: 15px;
+  outline: none;
+  transition: border 0.15s ease, box-shadow 0.15s ease;
+}
+
+input[type="search"]:focus,
+select:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px rgba(56, 189, 248, 0.25);
+}
+
+.grid {
+  display: grid;
+  gap: 18px;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  margin: 6px 0 40px;
+}
+
+.card, .facility-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 20px 18px;
+  box-shadow: var(--shadow);
+}
+
+.card h2 {
+  font-size: 20px;
+}
+
+.card .meta,
+.facility-card .facility-meta {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  font-size: 14px;
+  color: var(--muted);
+}
+
+.card .meta span {
+  background: rgba(148, 163, 184, 0.08);
+  border-radius: 999px;
+  padding: 6px 10px;
+}
+
+.muted {
+  color: var(--muted);
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 10px 14px;
+  border-radius: 999px;
+  font-size: 14px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: transform 0.1s ease, box-shadow 0.1s ease, background 0.15s ease;
+  border: 1px solid var(--border);
+  color: var(--text);
+}
+
+.button.primary {
+  background: linear-gradient(120deg, #38bdf8, #60a5fa);
+  color: #0b1224;
+  border: none;
+  box-shadow: 0 12px 30px rgba(56, 189, 248, 0.35);
+}
+
+.button.ghost {
+  background: rgba(148, 163, 184, 0.06);
+}
+
+.button:hover {
+  transform: translateY(-1px);
+}
+
+.button:active {
+  transform: translateY(0);
+}
+
+.site-footer {
+  border-top: 1px solid var(--border);
+  padding: 10px 0 30px;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.site-footer a {
+  color: var(--text);
+}
+
+.page .container {
+  padding-top: 18px;
+}
+
+.site-header {
+  border-bottom: 1px solid var(--border);
+  background: rgba(11, 18, 36, 0.8);
+  backdrop-filter: blur(10px);
+}
+
+.site-header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 14px 0;
+}
+
+.brand {
+  color: var(--text);
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--muted);
+}
+
+.breadcrumb a {
+  color: var(--text);
+  text-decoration: none;
+}
+
+.facility-card .facility-meta {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 12px;
+  margin: 12px 0;
+}
+
+.facility-card dt {
+  font-size: 13px;
+  color: var(--muted);
+}
+
+.facility-card dd {
+  margin: 4px 0 0;
+  font-weight: 600;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin: 12px 0 8px;
+}
+
+.note {
+  color: var(--muted);
+  font-size: 13px;
+}
+
+@media (max-width: 640px) {
+  .site-header .container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .button {
+    width: 100%;
+    text-align: center;
+  }
+}
