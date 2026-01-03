@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>新市區防空避難設施</title>
+  <link rel="stylesheet" href="./assets/styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="hero__content">
+      <p class="eyebrow">GitHub Pages</p>
+      <h1>新市區防空避難設施</h1>
+      <p class="subhead">逐一查看每個避難設施的詳細資料，並透過地圖快速定位。</p>
+      <p class='meta'>資料更新日期：113/07/02</p>
+    </div>
+  </header>
+  <main class="content">
+    <section class="controls card">
+      <div class="control">
+        <label for="search">搜尋名稱或地址</label>
+        <input id="search" type="search" placeholder="輸入關鍵字…" />
+      </div>
+      <div class="control">
+        <label for="village">按里別篩選</label>
+        <select id="village">
+          <option value="">所有里別</option>
+        </select>
+      </div>
+      <div class="control">
+        <label for="division">按轄管分局篩選</label>
+        <select id="division">
+          <option value="">所有分局</option>
+        </select>
+      </div>
+    </section>
+    <section id="facility-list" class="grid"></section>
+  </main>
+  <script type="module" src="./assets/main.js"></script>
+</body>
+</html>
